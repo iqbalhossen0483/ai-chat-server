@@ -43,3 +43,6 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
   console.log(`app listening at http://localhost:${port}`);
 });
+
+// Export for Vercel serverless function
+module.exports = app;
