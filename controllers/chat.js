@@ -20,17 +20,17 @@ const chat = catchAsync(async (req, res) => {
     res.write(text);
   }
 
-  await Chat.create({
+  const data1 = await Chat.create({
     userId: userId,
     role: "user",
     message: message,
   });
-  await Chat.create({
+  const data2 = await Chat.create({
     userId: userId,
     role: "assistant",
     message: response,
   });
-
+  console.log({ data1, data2 });
   res.end();
 });
 
