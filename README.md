@@ -39,10 +39,12 @@
   npm install
   ```
 
-  4. Start the
+  - Start the
 
   ```bash
   npm start
   ```
 
   The application will be accessible at http://localhost:8080.
+
+  ## finally Add the env file I"ll provide you
