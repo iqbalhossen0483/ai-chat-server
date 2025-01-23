@@ -16,3 +16,27 @@
 
 - **HTTP Streaming**  
   A method of communication that enables real-time, bidirectional data exchange between the server and the client. Using the HTTP streaming technique, the server can continuously push updates to the client, creating a seamless, live interaction experience in the chat app without requiring the user to refresh the page.
+
+- ### The Application is deployed on Vercel.
+
+  deployment link: https://ai-chat-server-taupe.vercel.app/
+
+- ## Installation
+  To run the application locally, follow these steps:
+  1. Clone the repository:
+  ```bash
+  git clone https://github.com/your-username/ai-chat-app.git
+  ```
+  2. Navigate to the project directory:
+  ```bash
+  cd
+  ```
+  3. Install the dependencies:
+  ```bash
+  npm install
+  ```
+  4. Start the
+  ```bash
+  npm start
+  ```
+  The application will be accessible at http://localhost:8080.
